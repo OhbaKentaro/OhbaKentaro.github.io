@@ -1,4 +1,17 @@
 .lw { font-size: 60px; }
-body {
-  background-color: #f5f5f5;
+/* 背景は画面いっぱい */
+body{
+  margin: 0;
+  background: #f5f5f5;  /* 好きな背景色 */
+}
+
+/* ページ全体の幅（ヘッダーもmainも全部これに従う） */
+.page{
+  max-width: 1100px;  /* ←ここを変えると“全体の幅”が変わる */
+  margin: 0 auto;     /* 中央寄せ */
+  background: #fff;   /* ページ本体は白にする例 */
+  min-height: 100vh;
+}
+h1 {
+  text-align: center;
 }
