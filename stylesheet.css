@@ -1,7 +1,7 @@
 .lw { font-size: 60px; }
 
 body{
-  background: #f5f5f5;  /* 好きな背景色 */
+  background: #fffacd; 
   width: 100%;
   max-width: 1024px;
   margin-left: auto;
@@ -12,9 +12,6 @@ img{
   display: block;
   margin: 0 auto;
 }
-
-
-
 
 h1 {
   text-align: center;
